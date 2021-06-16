@@ -20,31 +20,31 @@ body {
 
 .item2.container {
     background-color: green;
+    position: relative;
 }
 
 .item3.container {
     background-color: yellow;
 }
 
-.image1-container {
-    
-}
-
-.image1-container img {
+.image1-container img,
+.image2-container img {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.image1-container h1 {
+.image1-container h1,
+.image2-container h1 {
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.image1-container h1 {
+.image1-container h1,
+.image2-container h1 {
     color: yellow;
     text-align: center;
     font-size: 60px;
