@@ -25,10 +25,12 @@ body {
 
 .item3.container {
     background-color: yellow;
+    position: relative;
 }
 
 .image1-container img,
-.image2-container img {
+.image2-container img,
+.image3-container img {
     position: absolute;
     top: 40%;
     left: 50%;
@@ -36,7 +38,8 @@ body {
 }
 
 .image1-container h1,
-.image2-container h1 {
+.image2-container h1,
+.image3-container h1 {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -46,6 +49,12 @@ body {
 .image1-container h1,
 .image2-container h1 {
     color: yellow;
+    text-align: center;
+    font-size: 60px;
+}
+
+.image3-container h1 {
+    color: green;
     text-align: center;
     font-size: 60px;
 }
