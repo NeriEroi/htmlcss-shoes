@@ -11,21 +11,32 @@ body {
 .container {
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+
+nav ul li a {
+    float: right;
+    list-style-type: none;
+    width: 20px;
+    height: 20px;
+    padding: 30px;
+    margin: 50px 50px 0 0;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .item1.container {
     background-color: red;
-    position: relative;
 }
 
 .item2.container {
-    background-color: green;
-    position: relative;
+    background-color: green; 
 }
 
 .item3.container {
-    background-color: yellow;
-    position: relative;
+    background-color: yellow; 
 }
 
 .image1-container img,
