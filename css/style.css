@@ -15,6 +15,7 @@ body {
     position: relative;
 }
 
+
 /* nav */
 
 nav {
@@ -26,32 +27,18 @@ nav {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
 }
 
 ul li a {
     float: right;
     list-style-type: none;
-    display: block;
-    width: 20px;
-    height: 20px;
-    padding: 30px;
+    padding: 25px 30px;
     margin: 50px 50px 0 0;
     background-color: white;
     border-radius: 50%;
     font-size: 20px;
     text-decoration: none;
-}
-
-ul li a {
-    position: relative;
-}
-
-li a span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* / nav */
